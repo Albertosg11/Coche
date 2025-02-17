@@ -37,7 +37,6 @@ def obtener_datos_coche():
     modelo = input("\nIngresa el modelo del coche: ")
     color = input("\nIngresa el color del coche: ")
     return Coche(marca, modelo, color)
-1
-# Ejemplo de uso
+    
 coche = obtener_datos_coche()
 ejecutar_menu(coche)
